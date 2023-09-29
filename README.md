@@ -17,7 +17,7 @@ docker run conan_v1_create_failure
 
 1. Create sub-project package with: 
 
-```conan
+```bash
 conan create subproject/ --version=0.0.0 --build=missing
 ```
 
