@@ -1,0 +1,16 @@
+[requires]
+fmt/10.1.1
+nanodbc/cci.20200807
+libselinux/3.0
+libcurl/7.80.0
+example_rest/0.0.0
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout
+
+[options]
+*:shared=True
